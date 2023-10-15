@@ -17,6 +17,11 @@ class Test {
 2 ) In the static method, we can never access the non-static members directly because
 "static method is not invoked by the object so implicitly there is no ref id available in the static method"
 
+    In order to access the non-static member in the static method, there must be ref id of an object available in the static method.
+    There are two most common ways to get the ref id of any object inside the static methods
+        2.1 ) by using the new keyword
+        2.2 ) by passing the object as arguments.
+
 3 ) we can never use the this keyword in the static menthod.
 
 4 ) In the static menthods, we can only acess the other static member of the same class directly.
