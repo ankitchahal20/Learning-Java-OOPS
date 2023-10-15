@@ -47,4 +47,11 @@ class Test{
         annonymousObject(new Student());
     }
 }
+
+Returning the reference id of an object annonymously
+class Test{
+    static Student annonymousObject(){
+    return (new Student());
+}
+
 */
