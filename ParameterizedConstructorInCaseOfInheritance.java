@@ -27,4 +27,9 @@ class ParameterizedConstructorInCaseOfInheritance {
     }
 }
 
+/*
+If in the parent class there is no default constructor ann there is one or more parameterized constructor then,
+we have to compulsorily write super() statement in the child constructor.
+*/
+
 
